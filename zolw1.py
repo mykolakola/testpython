@@ -1,0 +1,23 @@
+import turtle
+turtle.bgcolor("red")
+
+m=turtle.Turtle()
+m.color("white")
+m.shape("turtle")
+m.begin_fill()
+m.forward(50)
+m.right(90)
+m.forward(50)
+m.right(90)
+m.forward(50)
+m.right(90)
+m.forward(50)
+m.end_fill()
+m.pensize(10)
+m.speed(10)
+m.circle(50)
+m.circle(150)
+m.circle(250)
+
+m.write("Mikołaj", font=("Arial", 30, "bold"))
+m.hideturtle()
